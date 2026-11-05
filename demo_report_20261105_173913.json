@@ -1,0 +1,48 @@
+{
+  "session": {
+    "start_time": "2026-11-05T23:08:37.001330",
+    "end_time": "2026-11-05T17:39:13.022690",
+    "duration_hours": 0.010005933245023092,
+    "initial_equity": 100.0,
+    "final_equity": -1455.1382449999999,
+    "total_return_pct": -1555.1382449999999
+  },
+  "trades": {
+    "total": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate": 0.0,
+    "profit_factor": 0.0,
+    "sharpe_ratio": 0.0,
+    "max_drawdown": 15.5514
+  },
+  "pnl": {
+    "gross_pnl": -1531.5,
+    "fees": 23.5882,
+    "slippage": 0.05,
+    "net_pnl": -1555.1382
+  },
+  "trade_log": [
+    {
+      "trade_id": 0,
+      "signal_time": "2026-11-05T17:38:38.650684",
+      "entry_time": "2026-11-05T17:38:38.650684",
+      "symbol": "BTCUSDT",
+      "direction": "LONG",
+      "entry_price": 50239.49,
+      "position_size": 0.5,
+      "stop_loss": 50238.99,
+      "target_1": 50240.99,
+      "win_prob": 0.96,
+      "confluence_score": 100.0,
+      "exit_time": "2026-11-05T17:38:48.220487",
+      "exit_price": 47176.49,
+      "exit_reason": "SCRATCH_ABSORPTION_FAIL",
+      "gross_pnl": -1531.5,
+      "fees": 23.588245,
+      "slippage_cost": 0.05,
+      "net_pnl": -1555.1382449999999,
+      "is_win": false
+    }
+  ]
+}

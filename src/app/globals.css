@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #090D16;
+    --foreground: #E5E7EB;
+    --card: #111827;
+    --border: #1F2937;
+    --bullish: #00F5D4;
+    --bearish: #FF2A85;
+    --amber: #F59E0B;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-[#090D16] text-[#E5E7EB];
+    font-feature-settings: "tnum" 1;
+  }
+
+  .mono {
+    font-family: "JetBrains Mono", monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
